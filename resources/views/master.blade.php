@@ -18,6 +18,72 @@
             height: 500px;
             padding:100px;
         }
+        img.slider-img{
+            height: 400px !important;
+        }
+        .custom-product{
+            height: 600px; 
+            padding-top: 50px;
+            margin-bottom:50px;
+        }
+        .slider-text{
+            background-color: rgba(103, 96, 96, 0.5);
+            color: #fff;
+        }
+       
+        .links{
+            color: #fff !important;
+            font-size: 20px;
+        }
+        .links:hover{
+            color: dodgerblue!important;
+        }
+        .brand{
+            /* color: red ; */
+            font-size:30px; 
+            margin-left: 5px;
+            margin-right: 20px;
+        }
+        .trending-image{
+            height: 100px;
+        }
+        .trending-item{
+           float: left;
+           width: 20%;
+           margin-top: 3%;
+            
+        }
+        .trending-wrapper{
+            margin: 30px;
+        }
+        .detail-img{
+            height: 200px;
+            
+        }
+        .detail{
+            margin-top: 30px;
+            margin-bottom:10%;
+        }
+        a{
+            text-decoration: none;
+            color:#000;
+        }
+        .search-box{
+            width: 500px !important;
+           
+        }
+        .find{
+            margin-right: 20px !important;
+        }
+        .filter{
+
+        }
+        .drop{
+            margin-right: 20px !important
+        }
+       
+      
+       
     </style>
     
 </body>

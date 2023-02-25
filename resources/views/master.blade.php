@@ -75,11 +75,15 @@
         .find{
             margin-right: 20px !important;
         }
-        .filter{
-
-        }
+       
         .drop{
             margin-right: 20px !important
+
+        }
+        .searched-item{
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
         }
        
       

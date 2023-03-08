@@ -22,7 +22,9 @@ Route::get('/logout', function () {
     Session::forget('user');
     return redirect('login');
 });
+Route::view('/register',"register");
 Route::post('/login',[userController::class,'login']);
+Route::post('/register',[userController::class,'register']);
 Route::get('/',[productController::class,'index']);
 Route::get('detail/{id}',[productController::class,'details']);
 Route::get('search',[productController::class,'search']);
@@ -31,3 +33,4 @@ Route::get('cartlist',[productController::class,'cartlist']);
 Route::get('removecart/{id}',[productController::class,'removeCart']);
 Route::get('ordernow',[productController::class,'orderNow']);
 Route::post('placeorder',[productController::class,'orderPlace']);
+Route::get('myorders',[productController::class,'myOrders']);
